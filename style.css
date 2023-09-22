@@ -1,5 +1,5 @@
 body{
-background-image: url("images/black-rain-abstract-dark-power_1127-2380.avif");
+background-image: url("./images/black-rain-abstract-dark-power_1127-2380.avif");
     background-size: cover;
     overflow-x: hidden;
  
@@ -41,14 +41,57 @@ background-image: url("images/black-rain-abstract-dark-power_1127-2380.avif");
     border: 2px solid white;
     box-shadow: 5px 5px 5px 0px #161639db;
     border: 1px solid white;
+    
 }
 .img2{
 width: 50px;
 height: 50px;
 }
-@media screen(max-width:360px){
- div.main{
-    width: 0%;
+@media(max-width:412px){
+    body{
+        /* background-size: cover ; */
+        overflow: hidden;
+        background-size: 1150%;
+        background-position: 0%;
+        background-image: url(./images/bg.gif);
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+  .inp button{
+    size: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
   }
-    
+   .text-center{
+    margin-left: 190%;
+  }
+    .col-4{
+        margin-left: 2px;
+        margin-top: 7%;
+    }
+    small{
+        display: none;
+    }
+    .text-light{
+        margin-top: -25px;
+        margin-left: 10%;
+    }
+}
+
+@media(max-width:560px){
+    body{
+        background-size: 270%;
+        background-position: 0%;
+        overflow: hidden;
+    }
+    .heading h1{
+       margin-left: 10px;
+    }
+    .text-center{
+        margin-left: -15%;
+    }
+    button{
+        margin-left: 10%;
+    }
 }
